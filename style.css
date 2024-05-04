@@ -1,0 +1,118 @@
+/* Add your CSS styles here */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("Background.jpg");
+  background-size: cover; /* Adjust background size as needed */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+}
+
+
+header {
+  background-color: red;
+  padding: 10px 0;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: grey;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#navbar ul li {
+  display: inline;
+}
+
+#navbar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  #navbar ul {
+    display: none;
+  }
+  #navbar ul li.icon {
+    display: inline;
+    float: right;
+  }
+  #navbar ul li {
+    display: block;
+    text-align: left;
+  }
+}
+
+.home-content {
+  text-align: center;
+  padding: 50px 0;
+  padding-top: 10%;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f8f9fa;
+}
+h1{
+  color: red;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+}
+p{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+}
+.photo{
+  padding-top: 8%;
+}
+.about-content {
+  text-align: center;
+  padding: 50px 0;
+  padding-top: 10%;
+}
+.contact-content {
+  text-align: center;
+  padding: 50px 0;
+  padding-top: 10%;
+}
+.help-content {
+  text-align: center;
+  padding: 50px 0;
+  padding-top: 10%;
+  height: 100px;
+  margin-bottom: 20%;
+}
+/* .dancing-script-<uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
